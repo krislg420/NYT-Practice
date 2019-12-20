@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>NYT Article Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
+
 <body>
+    <div class="jumbotron" style="background-color:#1f315a; color:white;">
+        <h1 class="display-4 text-center">New York Times Search</h1>
+    </div>
     <form>
         <div class="form-group">
-          <label for="exampleFormControlInput1">Search Term:</label>
-          <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="search term">
+            <label for="exampleFormControlInput1">Search Term:</label>
+            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="search term">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
-          <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>5</option>
-            <option>10</option>
-            
-          </select>
+            <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+            </select>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect2">Start Year(Optional):</label>
-          <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="start year">
+            <label for="exampleFormControlSelect2">Start Year(Optional):</label>
+            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="start year">
         </div>
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">End Year(Optional):</label>
-          <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="end year">
+            <label for="exampleFormControlTextarea1">End Year(Optional):</label>
+            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="end year">
         </div>
-      </form>
-
+    </form>
+    <button type="button" id= "seachbutton" class="btn btn-primary btn-lg">Search</button>
+<button type="button" id= "clearbutton" class="btn btn-secondary btn-lg">Clear Results</button>
 
 </body>
+
 </html>
