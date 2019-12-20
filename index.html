@@ -14,38 +14,47 @@
 </head>
 
 <body>
-    <div class="jumbotron" style="background-color:#1f315a; color:white;">
-        <h1 class="display-4 text-center">New York Times Search</h1>
-    </div>
-    <form>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Search Term:</label>
-            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="search term">
+    <div class="container">
+        <div class="jumbotron" style="background-color:#1f315a; color:white;">
+            <h1 class="display-4 text-center">New York Times Search</h1>
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>1</option>
-                <option>5</option>
-                <option>10</option>
-            </select>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Search Parameters</div>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Search Term:</label>
+                    <input type="search term" class="form-control" id="exampleFormControlInput1"
+                        placeholder="search term">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of Records to Retrieve:</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Start Year(Optional):</label>
+                    <input type="search term" class="form-control" id="exampleFormControlInput1"
+                        placeholder="start year">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">End Year(Optional):</label>
+                    <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="end year">
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect2">Start Year(Optional):</label>
-            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="start year">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">End Year(Optional):</label>
-            <input type="search term" class="form-control" id="exampleFormControlInput1" placeholder="end year">
-        </div>
-    </form>
 
-    <div class="panel panel-default">
-        <div class="panel-heading">Panel Heading</div>
-        <div class="panel-title">Panel Title</div>
-        <div class="panel-body">Panel Content</div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">Top Articles</div>
+            </div>
+            <div class="panel-body">CONTENT GOES HERE</div>
+        </div>
     </div>
-
 </body>
 
 </html>
