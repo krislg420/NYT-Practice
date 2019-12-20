@@ -1,0 +1,14 @@
+form {
+    border: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+.panel {
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.panel-heading {
+    background-color:#1f315a;
+    color: white;
+}
